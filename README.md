@@ -5,7 +5,7 @@ Repository for preparation for the test course of first semester PBA Cphbusiness
 
 ## Week 1
 
-[Readme](/week-1/README.md)
+[Readme](/week-1)
 
 [Fundamentals of testing](/week-1/fundamentals-of-testing.md)
 
