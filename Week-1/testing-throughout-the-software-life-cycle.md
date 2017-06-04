@@ -12,7 +12,7 @@
 
 - Explain the V-model:
 
-![](/week-1/figure-2-2-v-model.png)
+![figure-2-2-v-model image illustration](/week-1/figure-2-2-v-model.png)
 
 
 
