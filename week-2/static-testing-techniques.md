@@ -1,3 +1,5 @@
+# Static testing techniques
+
 - Explain what static testing means
 
 - Recognize software artifacts that can be examined by different static techniques

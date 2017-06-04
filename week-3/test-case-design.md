@@ -1,5 +1,6 @@
-## Test case design (week 3)
+# Test case design
 
+## Test case design (week 3)
 
 ## Point out the main differences between white box and block box tests
 

@@ -1,3 +1,5 @@
+# Testing throughout the software life cycle
+
 - Explain the characteristics of good testing that are applicable to any life cycle model
 
 - Explain the major objectives of the different test levels: unit test, integration test, system test and acceptance test

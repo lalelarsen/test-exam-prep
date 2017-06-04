@@ -1,3 +1,5 @@
+# Fundamentals of testing
+
 - Explain why testing is necessary by giving examples
 
 - Explain the difference in meaning between the root cause of a defect and its effects
