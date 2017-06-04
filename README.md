@@ -45,4 +45,4 @@ Repository for preparation for the test course of first semester PBA Cphbusiness
 
 [Readme](/week-12)
 
-[Agile Testing 1-3](/week-9-11/agile-testing-1-3.md)
+[Integration testing](/week-12/integration-testing.md)
