@@ -53,5 +53,4 @@ Debugging går ud på, at undersøge og rette, hvorfor den og den test fejler - 
 		5. Pesticide paradox. Hvis den samme type test bliver gentaget igen og igen og igen, vil de samme test cases ikke længere finde nye bugs. For at undgå dette, er det enormt vigtigt ofte at revurdere og optimere sine test cases, og også tilføje nye test som tester andre dele af systemet for potentielt, at finde flere fejl. 
 		6. Testing is context dependent. 
 		7. Absence – of – errors fallacy
-
-Read about them [here](http://istqbexamcertification.com/what-are-the-principles-of-testing/)
+	* Læs om de syv principer [her](http://istqbexamcertification.com/what-are-the-principles-of-testing/)
