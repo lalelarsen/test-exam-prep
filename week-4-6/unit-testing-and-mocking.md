@@ -1,28 +1,41 @@
 # Unit testing and Mocking
 
 - Explain what makes a test a unit test.
-
+  - hvis en test tester en specifik del af koden, eller et specifikt unit, så kan det kaldes en unit test. et unit kan være alt lige fra en funktion til en hel klasse. testen afgøre hvorvidt at det specifikke unit gør hvad det skal, f.eks. at det returnere det rigtige.
 
 - Explain properties that make a unit test a good unit test
-
+  - en unit test skal være hurtig. langsome tests har man ikke lyst til at køre.
+  - nem at skrive = nem at læse. man skal nemt kunne læse og forstå intentionen med testen.
+  - ikke være afhængig af andre tests og andre ting. skal kunne køre enkeltvis.
+  - må ikke ændre ekstern data. 
+  - skal kun teste en ting/en feature.
 
 - Provide examples (in words, not code) of JUnit tests which are not Unit tests
-
+  - en integrations test. en integrations test kan nemt skrives i JUnit, men modsat en unit test. så tester integration flere units, da den fokusere på samarbejde mellem units.
+  - Frontend testing kan også blive skrevet med JUnit, via frameworket Selenium.
 
 - What is meant by a test fixture?
-
+  - hvis en test er afhængig af noget der kan ændre sig, kan man udnytte en test fixture. et test fixture kan f.eks. være at loade sin database med kendte parameter, og derved opfylde preconditions for testen.
 
 - Explain, using a short example, the rationale behind the Arrange - Act - Assert strategy for testing
-
+  - arrange, kunne være en test fixture. preconditions met.
+  - act, selve testen. det kunne være kaldet af en metode som vi ville teste. gør arbejde.
+  - assert, tjek om vores outcome passer med det vi forventet. 
+  - et eksempel kunne være:
+    - arrange: input kendte parameter i databasen
+    - act: hent alle persone med alderen over 18
+    - assert: tjek om det passer med det vi forventet.
 
 - Explain the topics: State Verification vs Behaviour Verification and strategies for testing each
-
+  - state verification, er hvor man teste at et givent objekt og dets collaborators(noget objectet er afhængig af. f.eks. en andens klasse) er i det forventet stadige. det kunne være at der er blevet tilføjet et objekt til en liste, og den derfor er blevet 1 større.
+  - behaviour verification, er hvor man sikre sig at de rette metoder er blevet kaldt med de rette parameter. det kan man gøre ved hjælp af f.eks. mocks. ved at mocke et object væk kan vi tjekke hvorvidt en metode er blevet kaldt osv.
 
 - Explain about the JUnit Framework, how to include it in a project, and how to write tests
-
+  - JUnit er et framework til java, som skal gøre det nemmere at skrive tests. JUnit udnytter sig af nogle tags, som definere elementer i koden. f.eks. definere man en test via @Test -tagget. man inkludere JUnit, via en jar file som man kan implementere selv, eller via en dependency i Maven
 
 - Explain a few rules of what makes a good Unit test, and rules for what makes code testable (or untestable). 
-
+  - læs det første spørgsmål for at se hvad der gør en unit test god.
+  - 
 
 - Explain about the SOLID rules plus a number of the additional rules given in Effective Unit Testing focusing on WHY following these rules makes code more testable
 
