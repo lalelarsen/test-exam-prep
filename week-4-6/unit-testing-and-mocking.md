@@ -1,13 +1,17 @@
 # Unit testing and Mocking
 
 - Explain what makes a test a unit test.
-
+  - hvis en test tester en specifik del af koden, eller et specifikt unit, så kan det kaldes en unit test. et unit kan være alt lige fra en funktion til en hel klasse. testen afgøre hvorvidt at det specifikke unit gør hvad det skal, f.eks. at det returnere det rigtige.
 
 - Explain properties that make a unit test a good unit test
-
+  - en unit test skal være hurtig. langsome tests har man ikke lyst til at køre.
+  - nem at skrive = nem at læse. man skal nemt kunne læse og forstå intentionen med testen.
+  - ikke være afhængig af andre tests og andre ting. skal kunne køre enkeltvis.
+  - må ikke ændre ekstern data. 
+  - skal kun teste en ting/en feature.
 
 - Provide examples (in words, not code) of JUnit tests which are not Unit tests
-
+  - 
 
 - What is meant by a test fixture?
 
